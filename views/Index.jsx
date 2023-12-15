@@ -16,7 +16,7 @@ function Index(props) {
                 }}
               >
                 {" "}
-                <a href={`/pokemon/${i}`}>{pokes.name} </a>{" "}
+                <a href={`/pokemon/${i}`}>{pokes.name} </a>
               </li>
             );
           })}
